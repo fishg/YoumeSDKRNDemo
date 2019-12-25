@@ -11,11 +11,17 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+#import "RCDjinniModulesInitializer.h"
+#import <React/RCTLinkingManager.h>
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
+  
+  id<RCTBridgeDelegate> moduleInitialiser = [[RCDjinniModulesInitializer alloc] initWithURL:[self sourceURLForBridge:nil]];
+  
+  RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:moduleInitialiser launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"YoumeSDKRNDemo"
                                             initialProperties:nil];

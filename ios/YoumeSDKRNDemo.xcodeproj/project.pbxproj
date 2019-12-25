@@ -20,6 +20,72 @@
 		A058FA8C7CA6B0023D2E4F64 /* libPods-YoumeSDKRNDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B3C8B893916C971E8CA118 /* libPods-YoumeSDKRNDemoTests.a */; };
 		A6D402026CAB5A7568E1CDD0 /* libPods-YoumeSDKRNDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF187EDC515CF7BD674F6C6 /* libPods-YoumeSDKRNDemo-tvOS.a */; };
 		CEF7ED5691F0BA1BE92D1402 /* libPods-YoumeSDKRNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 397B7D2464D0F521A9E46385 /* libPods-YoumeSDKRNDemo.a */; };
+		CF4F357323B3D71D00A39705 /* react.djinni in Resources */ = {isa = PBXBuildFile; fileRef = CF4F347E23B3D71D00A39705 /* react.djinni */; };
+		CF4F358723B3D71D00A39705 /* JavascriptObjectImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F349723B3D71D00A39705 /* JavascriptObjectImpl.cpp */; };
+		CF4F358823B3D71D00A39705 /* JobImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F349A23B3D71D00A39705 /* JobImpl.cpp */; };
+		CF4F358923B3D71D00A39705 /* JobQueueImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34A323B3D71D00A39705 /* JobQueueImpl.cpp */; };
+		CF4F358A23B3D71D00A39705 /* react.yaml in Resources */ = {isa = PBXBuildFile; fileRef = CF4F34A923B3D71D00A39705 /* react.yaml */; };
+		CF4F359723B3D71D00A39705 /* RVJavascriptCallbackImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34C623B3D71D00A39705 /* RVJavascriptCallbackImpl.mm */; };
+		CF4F359823B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34C723B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.mm */; };
+		CF4F359923B3D71D00A39705 /* RVJavascriptMap+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34C823B3D71D00A39705 /* RVJavascriptMap+Private.mm */; };
+		CF4F359A23B3D71D00A39705 /* RVJavascriptPromiseImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34CD23B3D71D00A39705 /* RVJavascriptPromiseImpl.mm */; };
+		CF4F359B23B3D71D00A39705 /* RVJavascriptMapImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34CE23B3D71D00A39705 /* RVJavascriptMapImpl.mm */; };
+		CF4F359C23B3D71D00A39705 /* RVJavascriptObject+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34D123B3D71D00A39705 /* RVJavascriptObject+Private.mm */; };
+		CF4F359D23B3D71D00A39705 /* RVJavascriptArrayImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34D523B3D71D00A39705 /* RVJavascriptArrayImpl.mm */; };
+		CF4F359E23B3D71D00A39705 /* RVJavascriptCallback+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34DC23B3D71D00A39705 /* RVJavascriptCallback+Private.mm */; };
+		CF4F359F23B3D71D00A39705 /* RVJavascriptPromise+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34DD23B3D71D00A39705 /* RVJavascriptPromise+Private.mm */; };
+		CF4F35A023B3D71D00A39705 /* DJIProxyCaches.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34E023B3D71D00A39705 /* DJIProxyCaches.mm */; };
+		CF4F35A123B3D71D00A39705 /* RVReactDjinni.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34E323B3D71D00A39705 /* RVReactDjinni.mm */; };
+		CF4F35A223B3D71D00A39705 /* RVJobDispatcherImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34E423B3D71D00A39705 /* RVJobDispatcherImpl.m */; };
+		CF4F35A323B3D71D00A39705 /* RVJavascriptArray+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34E923B3D71D00A39705 /* RVJavascriptArray+Private.mm */; };
+		CF4F35A423B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34EB23B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.mm */; };
+		CF4F35A523B3D71D00A39705 /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34EE23B3D71D00A39705 /* DJIError.mm */; };
+		CF4F35A623B3D71D00A39705 /* RVReactBridge+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34F123B3D71D00A39705 /* RVReactBridge+Private.mm */; };
+		CF4F35A723B3D71D00A39705 /* RVJobQueue+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34F223B3D71D00A39705 /* RVJobQueue+Private.mm */; };
+		CF4F35A823B3D71D00A39705 /* RVReactBridgeImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34F323B3D71D00A39705 /* RVReactBridgeImpl.mm */; };
+		CF4F35A923B3D71D00A39705 /* RVJob+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34F423B3D71D00A39705 /* RVJob+Private.mm */; };
+		CF4F35AA23B3D71D00A39705 /* RVJobDispatcher+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34F523B3D71D00A39705 /* RVJobDispatcher+Private.mm */; };
+		CF4F35AB23B3D71D00A39705 /* generate_react.sh in Resources */ = {isa = PBXBuildFile; fileRef = CF4F34FC23B3D71D00A39705 /* generate_react.sh */; };
+		CF4F35AC23B3D71D00A39705 /* support_lib.gyp in Resources */ = {isa = PBXBuildFile; fileRef = CF4F34FD23B3D71D00A39705 /* support_lib.gyp */; };
+		CF4F35AD23B3D71D00A39705 /* RCRNYIMFriendManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F34FF23B3D71D00A39705 /* RCRNYIMFriendManager+Private.mm */; };
+		CF4F35AE23B3D71D00A39705 /* RCRNYIMManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F350023B3D71D00A39705 /* RCRNYIMManager+Private.mm */; };
+		CF4F35AF23B3D71D00A39705 /* RCRNVoiceEngine+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F350223B3D71D00A39705 /* RCRNVoiceEngine+Private.mm */; };
+		CF4F35B023B3D71D00A39705 /* RCRNYIMLocationManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F350423B3D71D00A39705 /* RCRNYIMLocationManager+Private.mm */; };
+		CF4F35B123B3D71D00A39705 /* RCRNYIMChannelManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F350823B3D71D00A39705 /* RCRNYIMChannelManager+Private.mm */; };
+		CF4F35B223B3D71D00A39705 /* RCRNYIMCommon+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F350A23B3D71D00A39705 /* RCRNYIMCommon+Private.mm */; };
+		CF4F35B323B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F350F23B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.mm */; };
+		CF4F35B423B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F351023B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.mm */; };
+		CF4F35B523B3D71D00A39705 /* RCDjinniModulesInitializer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F351423B3D71D00A39705 /* RCDjinniModulesInitializer.mm */; };
+		CF4F35B623B3D71D00A39705 /* RCRNYIMMessageManager+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F351823B3D71D00A39705 /* RCRNYIMMessageManager+Private.mm */; };
+		CF4F35B723B3D71D00A39705 /* RCRNYIMCommon.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF4F351A23B3D71D00A39705 /* RCRNYIMCommon.mm */; };
+		CF4F35B823B3D71D00A39705 /* RNYIMFriendManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352123B3D71D00A39705 /* RNYIMFriendManagerImpl.cpp */; };
+		CF4F35B923B3D71D00A39705 /* RNYIMManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352223B3D71D00A39705 /* RNYIMManagerImpl.cpp */; };
+		CF4F35BA23B3D71D00A39705 /* RNYIMLocationManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352323B3D71D00A39705 /* RNYIMLocationManagerImpl.cpp */; };
+		CF4F35BB23B3D71D00A39705 /* RNVoiceEngineImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352723B3D71D00A39705 /* RNVoiceEngineImpl.cpp */; };
+		CF4F35BC23B3D71D00A39705 /* RNYIMChannelManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352A23B3D71D00A39705 /* RNYIMChannelManagerImpl.cpp */; };
+		CF4F35BD23B3D71D00A39705 /* RNYIMMessageManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352C23B3D71D00A39705 /* RNYIMMessageManagerImpl.cpp */; };
+		CF4F35BE23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352D23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.cpp */; };
+		CF4F35BF23B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F352F23B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.cpp */; };
+		CF4F35C023B3D71D00A39705 /* RNYIMCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F353523B3D71D00A39705 /* RNYIMCommon.cpp */; };
+		CF4F35CA23B3D71D00A39705 /* LocationCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F354F23B3D71D00A39705 /* LocationCallback.cpp */; };
+		CF4F35CB23B3D71D00A39705 /* FriendCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F355123B3D71D00A39705 /* FriendCallback.cpp */; };
+		CF4F35CC23B3D71D00A39705 /* IMManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F355323B3D71D00A39705 /* IMManager.cpp */; };
+		CF4F35CD23B3D71D00A39705 /* MessageCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F355423B3D71D00A39705 /* MessageCallback.cpp */; };
+		CF4F35CE23B3D71D00A39705 /* UserInfoCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F355723B3D71D00A39705 /* UserInfoCallback.cpp */; };
+		CF4F35CF23B3D71D00A39705 /* ChannelCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F355B23B3D71D00A39705 /* ChannelCallback.cpp */; };
+		CF4F35D023B3D71D00A39705 /* AudioPlayCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4F355C23B3D71D00A39705 /* AudioPlayCallback.cpp */; };
+		CF4F35D123B3D71D00A39705 /* libYouMeCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F356723B3D71D00A39705 /* libYouMeCommon.a */; };
+		CF4F35D223B3D71D00A39705 /* libyim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F356823B3D71D00A39705 /* libyim.a */; };
+		CF4F35D323B3D71D00A39705 /* libyoume_voice_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F356923B3D71D00A39705 /* libyoume_voice_engine.a */; };
+		CF4F35DB23B3D91500A39705 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F35DA23B3D91500A39705 /* libc++.tbd */; };
+		CF4F35DD23B3D91B00A39705 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F35DC23B3D91B00A39705 /* libz.tbd */; };
+		CF4F35DF23B3D92100A39705 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F35DE23B3D92100A39705 /* libsqlite3.tbd */; };
+		CF4F35E123B3D92E00A39705 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F35E023B3D92E00A39705 /* SystemConfiguration.framework */; };
+		CF4F35E323B3D93600A39705 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F35E223B3D93600A39705 /* AudioToolbox.framework */; };
+		CF4F35E523B3D93B00A39705 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F35E423B3D93B00A39705 /* CoreLocation.framework */; };
+		CF6CAB2123B3DA290044A685 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6CAB2023B3DA290044A685 /* CoreTelephony.framework */; };
+		CF6CAB2323B3DA300044A685 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6CAB2223B3DA300044A685 /* AVFoundation.framework */; };
+		CF6CAB2523B3DA370044A685 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6CAB2423B3DA370044A685 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +128,174 @@
 		8BF187EDC515CF7BD674F6C6 /* libPods-YoumeSDKRNDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoumeSDKRNDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E50E0055C3E84AFA3BCF04 /* Pods-YoumeSDKRNDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoumeSDKRNDemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-YoumeSDKRNDemo-tvOSTests/Pods-YoumeSDKRNDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		C290DAFB342D3A7D61FF3BB4 /* Pods-YoumeSDKRNDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoumeSDKRNDemo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-YoumeSDKRNDemo-tvOS/Pods-YoumeSDKRNDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		CF4F347C23B3D71D00A39705 /* proxy_cache_interface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy_cache_interface.hpp; sourceTree = "<group>"; };
+		CF4F347D23B3D71D00A39705 /* proxy_cache_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy_cache_impl.hpp; sourceTree = "<group>"; };
+		CF4F347E23B3D71D00A39705 /* react.djinni */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = react.djinni; sourceTree = "<group>"; };
+		CF4F349723B3D71D00A39705 /* JavascriptObjectImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavascriptObjectImpl.cpp; sourceTree = "<group>"; };
+		CF4F349823B3D71D00A39705 /* JavascriptTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptTypes.hpp; sourceTree = "<group>"; };
+		CF4F349923B3D71D00A39705 /* JavascriptCallback.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptCallback.hpp; sourceTree = "<group>"; };
+		CF4F349A23B3D71D00A39705 /* JobImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JobImpl.cpp; sourceTree = "<group>"; };
+		CF4F349B23B3D71D00A39705 /* ReactBridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReactBridge.hpp; sourceTree = "<group>"; };
+		CF4F349C23B3D71D00A39705 /* JobQueueImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JobQueueImpl.hpp; sourceTree = "<group>"; };
+		CF4F349D23B3D71D00A39705 /* JobImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JobImpl.hpp; sourceTree = "<group>"; };
+		CF4F349E23B3D71D00A39705 /* JavascriptObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptObject.hpp; sourceTree = "<group>"; };
+		CF4F349F23B3D71D00A39705 /* JavascriptMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptMap.hpp; sourceTree = "<group>"; };
+		CF4F34A023B3D71D00A39705 /* JavascriptArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptArray.hpp; sourceTree = "<group>"; };
+		CF4F34A123B3D71D00A39705 /* JavascriptMapKeyIterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptMapKeyIterator.hpp; sourceTree = "<group>"; };
+		CF4F34A223B3D71D00A39705 /* JavascriptPromise.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptPromise.hpp; sourceTree = "<group>"; };
+		CF4F34A323B3D71D00A39705 /* JobQueueImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JobQueueImpl.cpp; sourceTree = "<group>"; };
+		CF4F34A423B3D71D00A39705 /* JobDispatcher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JobDispatcher.hpp; sourceTree = "<group>"; };
+		CF4F34A523B3D71D00A39705 /* JavascriptObjectImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptObjectImpl.hpp; sourceTree = "<group>"; };
+		CF4F34A623B3D71D00A39705 /* JavascriptType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JavascriptType.hpp; sourceTree = "<group>"; };
+		CF4F34A723B3D71D00A39705 /* Job.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Job.hpp; sourceTree = "<group>"; };
+		CF4F34A823B3D71D00A39705 /* JobQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JobQueue.hpp; sourceTree = "<group>"; };
+		CF4F34A923B3D71D00A39705 /* react.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = react.yaml; sourceTree = "<group>"; };
+		CF4F34C523B3D71D00A39705 /* RVJobDispatcher+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJobDispatcher+Private.h"; sourceTree = "<group>"; };
+		CF4F34C623B3D71D00A39705 /* RVJavascriptCallbackImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVJavascriptCallbackImpl.mm; sourceTree = "<group>"; };
+		CF4F34C723B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJavascriptMapKeyIterator+Private.mm"; sourceTree = "<group>"; };
+		CF4F34C823B3D71D00A39705 /* RVJavascriptMap+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJavascriptMap+Private.mm"; sourceTree = "<group>"; };
+		CF4F34C923B3D71D00A39705 /* RVJavascriptObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptObject+Private.h"; sourceTree = "<group>"; };
+		CF4F34CA23B3D71D00A39705 /* RVJobDispatcherImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJobDispatcherImpl.h; sourceTree = "<group>"; };
+		CF4F34CB23B3D71D00A39705 /* RVJavascriptArrayImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptArrayImpl.h; sourceTree = "<group>"; };
+		CF4F34CC23B3D71D00A39705 /* RVJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJob.h; sourceTree = "<group>"; };
+		CF4F34CD23B3D71D00A39705 /* RVJavascriptPromiseImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVJavascriptPromiseImpl.mm; sourceTree = "<group>"; };
+		CF4F34CE23B3D71D00A39705 /* RVJavascriptMapImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVJavascriptMapImpl.mm; sourceTree = "<group>"; };
+		CF4F34CF23B3D71D00A39705 /* RVJavascriptMapImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptMapImpl.h; sourceTree = "<group>"; };
+		CF4F34D023B3D71D00A39705 /* RVJavascriptType+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptType+Private.h"; sourceTree = "<group>"; };
+		CF4F34D123B3D71D00A39705 /* RVJavascriptObject+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJavascriptObject+Private.mm"; sourceTree = "<group>"; };
+		CF4F34D223B3D71D00A39705 /* DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJICppWrapperCache+Private.h"; sourceTree = "<group>"; };
+		CF4F34D323B3D71D00A39705 /* RVJavascriptType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptType.h; sourceTree = "<group>"; };
+		CF4F34D423B3D71D00A39705 /* RVJob+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJob+Private.h"; sourceTree = "<group>"; };
+		CF4F34D523B3D71D00A39705 /* RVJavascriptArrayImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVJavascriptArrayImpl.mm; sourceTree = "<group>"; };
+		CF4F34D623B3D71D00A39705 /* RVJavascriptArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptArray.h; sourceTree = "<group>"; };
+		CF4F34D723B3D71D00A39705 /* RVReactBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVReactBridge.h; sourceTree = "<group>"; };
+		CF4F34D823B3D71D00A39705 /* RVJavascriptMap+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptMap+Private.h"; sourceTree = "<group>"; };
+		CF4F34D923B3D71D00A39705 /* RVJavascriptCallback+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptCallback+Private.h"; sourceTree = "<group>"; };
+		CF4F34DA23B3D71D00A39705 /* RVJobQueue+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJobQueue+Private.h"; sourceTree = "<group>"; };
+		CF4F34DB23B3D71D00A39705 /* RVReactBridge+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVReactBridge+Private.h"; sourceTree = "<group>"; };
+		CF4F34DC23B3D71D00A39705 /* RVJavascriptCallback+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJavascriptCallback+Private.mm"; sourceTree = "<group>"; };
+		CF4F34DD23B3D71D00A39705 /* RVJavascriptPromise+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJavascriptPromise+Private.mm"; sourceTree = "<group>"; };
+		CF4F34DE23B3D71D00A39705 /* DJIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIError.h; sourceTree = "<group>"; };
+		CF4F34DF23B3D71D00A39705 /* RVJobQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJobQueue.h; sourceTree = "<group>"; };
+		CF4F34E023B3D71D00A39705 /* DJIProxyCaches.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIProxyCaches.mm; sourceTree = "<group>"; };
+		CF4F34E123B3D71D00A39705 /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
+		CF4F34E223B3D71D00A39705 /* RVJavascriptCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptCallback.h; sourceTree = "<group>"; };
+		CF4F34E323B3D71D00A39705 /* RVReactDjinni.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVReactDjinni.mm; sourceTree = "<group>"; };
+		CF4F34E423B3D71D00A39705 /* RVJobDispatcherImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVJobDispatcherImpl.m; sourceTree = "<group>"; };
+		CF4F34E523B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptMapKeyIterator+Private.h"; sourceTree = "<group>"; };
+		CF4F34E623B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptMapKeyIteratorImpl.h; sourceTree = "<group>"; };
+		CF4F34E723B3D71D00A39705 /* RVJobDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJobDispatcher.h; sourceTree = "<group>"; };
+		CF4F34E823B3D71D00A39705 /* RVJavascriptObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptObject.h; sourceTree = "<group>"; };
+		CF4F34E923B3D71D00A39705 /* RVJavascriptArray+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJavascriptArray+Private.mm"; sourceTree = "<group>"; };
+		CF4F34EA23B3D71D00A39705 /* RVReactDjinni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVReactDjinni.h; sourceTree = "<group>"; };
+		CF4F34EB23B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVJavascriptMapKeyIteratorImpl.mm; sourceTree = "<group>"; };
+		CF4F34EC23B3D71D00A39705 /* RVJavascriptMapKeyIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptMapKeyIterator.h; sourceTree = "<group>"; };
+		CF4F34ED23B3D71D00A39705 /* RVJavascriptArray+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptArray+Private.h"; sourceTree = "<group>"; };
+		CF4F34EE23B3D71D00A39705 /* DJIError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIError.mm; sourceTree = "<group>"; };
+		CF4F34EF23B3D71D00A39705 /* RVReactBridgeImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVReactBridgeImpl.h; sourceTree = "<group>"; };
+		CF4F34F023B3D71D00A39705 /* RVJavascriptPromiseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptPromiseImpl.h; sourceTree = "<group>"; };
+		CF4F34F123B3D71D00A39705 /* RVReactBridge+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVReactBridge+Private.mm"; sourceTree = "<group>"; };
+		CF4F34F223B3D71D00A39705 /* RVJobQueue+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJobQueue+Private.mm"; sourceTree = "<group>"; };
+		CF4F34F323B3D71D00A39705 /* RVReactBridgeImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RVReactBridgeImpl.mm; sourceTree = "<group>"; };
+		CF4F34F423B3D71D00A39705 /* RVJob+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJob+Private.mm"; sourceTree = "<group>"; };
+		CF4F34F523B3D71D00A39705 /* RVJobDispatcher+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RVJobDispatcher+Private.mm"; sourceTree = "<group>"; };
+		CF4F34F623B3D71D00A39705 /* RVJavascriptCallbackImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptCallbackImpl.h; sourceTree = "<group>"; };
+		CF4F34F723B3D71D00A39705 /* RVJavascriptMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptMap.h; sourceTree = "<group>"; };
+		CF4F34F823B3D71D00A39705 /* DJIMarshal+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIMarshal+Private.h"; sourceTree = "<group>"; };
+		CF4F34F923B3D71D00A39705 /* RVJavascriptPromise+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVJavascriptPromise+Private.h"; sourceTree = "<group>"; };
+		CF4F34FA23B3D71D00A39705 /* RVJavascriptPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVJavascriptPromise.h; sourceTree = "<group>"; };
+		CF4F34FB23B3D71D00A39705 /* djinni_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = djinni_common.hpp; sourceTree = "<group>"; };
+		CF4F34FC23B3D71D00A39705 /* generate_react.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generate_react.sh; sourceTree = "<group>"; };
+		CF4F34FD23B3D71D00A39705 /* support_lib.gyp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = support_lib.gyp; sourceTree = "<group>"; };
+		CF4F34FF23B3D71D00A39705 /* RCRNYIMFriendManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMFriendManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F350023B3D71D00A39705 /* RCRNYIMManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F350123B3D71D00A39705 /* RCRNYIMMessageManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMMessageManager+Private.h"; sourceTree = "<group>"; };
+		CF4F350223B3D71D00A39705 /* RCRNVoiceEngine+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNVoiceEngine+Private.mm"; sourceTree = "<group>"; };
+		CF4F350323B3D71D00A39705 /* RCRNYIMUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMUserInfoManager.h; sourceTree = "<group>"; };
+		CF4F350423B3D71D00A39705 /* RCRNYIMLocationManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMLocationManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F350523B3D71D00A39705 /* RCRNYIMFriendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMFriendManager.h; sourceTree = "<group>"; };
+		CF4F350623B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMUserInfoManager+Private.h"; sourceTree = "<group>"; };
+		CF4F350723B3D71D00A39705 /* RCRNYIMChannelManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMChannelManager+Private.h"; sourceTree = "<group>"; };
+		CF4F350823B3D71D00A39705 /* RCRNYIMChannelManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMChannelManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F350923B3D71D00A39705 /* RCRNYIMLocationManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMLocationManager+Private.h"; sourceTree = "<group>"; };
+		CF4F350A23B3D71D00A39705 /* RCRNYIMCommon+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMCommon+Private.mm"; sourceTree = "<group>"; };
+		CF4F350B23B3D71D00A39705 /* RCRNYIMChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMChannelManager.h; sourceTree = "<group>"; };
+		CF4F350C23B3D71D00A39705 /* RCRNYIMHistoryMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMHistoryMessageManager.h; sourceTree = "<group>"; };
+		CF4F350D23B3D71D00A39705 /* RCRNYIMManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMManager+Private.h"; sourceTree = "<group>"; };
+		CF4F350E23B3D71D00A39705 /* RCRNYIMCommon+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMCommon+Private.h"; sourceTree = "<group>"; };
+		CF4F350F23B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMUserInfoManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F351023B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMHistoryMessageManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F351123B3D71D00A39705 /* RCRNYIMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMManager.h; sourceTree = "<group>"; };
+		CF4F351223B3D71D00A39705 /* RCRNVoiceEngine+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNVoiceEngine+Private.h"; sourceTree = "<group>"; };
+		CF4F351323B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMHistoryMessageManager+Private.h"; sourceTree = "<group>"; };
+		CF4F351423B3D71D00A39705 /* RCDjinniModulesInitializer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCDjinniModulesInitializer.mm; sourceTree = "<group>"; };
+		CF4F351523B3D71D00A39705 /* RCRNYIMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMCommon.h; sourceTree = "<group>"; };
+		CF4F351623B3D71D00A39705 /* yim_bridging_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yim_bridging_header.h; sourceTree = "<group>"; };
+		CF4F351723B3D71D00A39705 /* RCRNYIMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMLocationManager.h; sourceTree = "<group>"; };
+		CF4F351823B3D71D00A39705 /* RCRNYIMMessageManager+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RCRNYIMMessageManager+Private.mm"; sourceTree = "<group>"; };
+		CF4F351923B3D71D00A39705 /* RCRNYIMMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNYIMMessageManager.h; sourceTree = "<group>"; };
+		CF4F351A23B3D71D00A39705 /* RCRNYIMCommon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCRNYIMCommon.mm; sourceTree = "<group>"; };
+		CF4F351B23B3D71D00A39705 /* RCRNVoiceEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRNVoiceEngine.h; sourceTree = "<group>"; };
+		CF4F351C23B3D71D00A39705 /* RCRNYIMFriendManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCRNYIMFriendManager+Private.h"; sourceTree = "<group>"; };
+		CF4F351D23B3D71D00A39705 /* RCDjinniModulesInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDjinniModulesInitializer.h; sourceTree = "<group>"; };
+		CF4F352023B3D71D00A39705 /* RNYIMFriendManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMFriendManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352123B3D71D00A39705 /* RNYIMFriendManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMFriendManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F352223B3D71D00A39705 /* RNYIMManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F352323B3D71D00A39705 /* RNYIMLocationManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMLocationManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F352423B3D71D00A39705 /* RNYIMLocationManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMLocationManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352523B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMHistoryMessageManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352623B3D71D00A39705 /* RNYIMManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352723B3D71D00A39705 /* RNVoiceEngineImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNVoiceEngineImpl.cpp; sourceTree = "<group>"; };
+		CF4F352823B3D71D00A39705 /* RNYIMChannelManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMChannelManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352923B3D71D00A39705 /* RNYIMMessageManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMMessageManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352A23B3D71D00A39705 /* RNYIMChannelManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMChannelManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F352B23B3D71D00A39705 /* RNVoiceEngineImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNVoiceEngineImpl.h; sourceTree = "<group>"; };
+		CF4F352C23B3D71D00A39705 /* RNYIMMessageManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMMessageManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F352D23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMUserInfoManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F352E23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYIMUserInfoManagerImpl.h; sourceTree = "<group>"; };
+		CF4F352F23B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMHistoryMessageManagerImpl.cpp; sourceTree = "<group>"; };
+		CF4F353123B3D71D00A39705 /* RNYIMManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMManager.hpp; sourceTree = "<group>"; };
+		CF4F353223B3D71D00A39705 /* RNYIMCommon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMCommon.hpp; sourceTree = "<group>"; };
+		CF4F353323B3D71D00A39705 /* RNYIMFriendManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMFriendManager.hpp; sourceTree = "<group>"; };
+		CF4F353423B3D71D00A39705 /* RNVoiceEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNVoiceEngine.hpp; sourceTree = "<group>"; };
+		CF4F353523B3D71D00A39705 /* RNYIMCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNYIMCommon.cpp; sourceTree = "<group>"; };
+		CF4F353623B3D71D00A39705 /* RNYIMMessageManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMMessageManager.hpp; sourceTree = "<group>"; };
+		CF4F353723B3D71D00A39705 /* RNYIMHistoryMessageManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMHistoryMessageManager.hpp; sourceTree = "<group>"; };
+		CF4F353823B3D71D00A39705 /* RNYIMChannelManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMChannelManager.hpp; sourceTree = "<group>"; };
+		CF4F353923B3D71D00A39705 /* RNYIMLocationManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMLocationManager.hpp; sourceTree = "<group>"; };
+		CF4F353A23B3D71D00A39705 /* RNYIMUserInfoManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RNYIMUserInfoManager.hpp; sourceTree = "<group>"; };
+		CF4F354F23B3D71D00A39705 /* LocationCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocationCallback.cpp; sourceTree = "<group>"; };
+		CF4F355023B3D71D00A39705 /* MessageCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCallback.h; sourceTree = "<group>"; };
+		CF4F355123B3D71D00A39705 /* FriendCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FriendCallback.cpp; sourceTree = "<group>"; };
+		CF4F355223B3D71D00A39705 /* AudioPlayCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayCallback.h; sourceTree = "<group>"; };
+		CF4F355323B3D71D00A39705 /* IMManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IMManager.cpp; sourceTree = "<group>"; };
+		CF4F355423B3D71D00A39705 /* MessageCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MessageCallback.cpp; sourceTree = "<group>"; };
+		CF4F355523B3D71D00A39705 /* LocationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCallback.h; sourceTree = "<group>"; };
+		CF4F355623B3D71D00A39705 /* ChannelCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelCallback.h; sourceTree = "<group>"; };
+		CF4F355723B3D71D00A39705 /* UserInfoCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserInfoCallback.cpp; sourceTree = "<group>"; };
+		CF4F355823B3D71D00A39705 /* UserInfoCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoCallback.h; sourceTree = "<group>"; };
+		CF4F355923B3D71D00A39705 /* IMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMManager.h; sourceTree = "<group>"; };
+		CF4F355A23B3D71D00A39705 /* FriendCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCallback.h; sourceTree = "<group>"; };
+		CF4F355B23B3D71D00A39705 /* ChannelCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChannelCallback.cpp; sourceTree = "<group>"; };
+		CF4F355C23B3D71D00A39705 /* AudioPlayCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioPlayCallback.cpp; sourceTree = "<group>"; };
+		CF4F355F23B3D71D00A39705 /* IYouMeVoiceEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYouMeVoiceEngine.h; sourceTree = "<group>"; };
+		CF4F356023B3D71D00A39705 /* YouMeConstDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMeConstDefine.h; sourceTree = "<group>"; };
+		CF4F356123B3D71D00A39705 /* YIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIM.h; sourceTree = "<group>"; };
+		CF4F356223B3D71D00A39705 /* VoiceEngineCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceEngineCallback.h; sourceTree = "<group>"; };
+		CF4F356323B3D71D00A39705 /* IYouMeEventCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYouMeEventCallback.h; sourceTree = "<group>"; };
+		CF4F356423B3D71D00A39705 /* YIMPlatformDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMPlatformDefine.h; sourceTree = "<group>"; };
+		CF4F356723B3D71D00A39705 /* libYouMeCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYouMeCommon.a; sourceTree = "<group>"; };
+		CF4F356823B3D71D00A39705 /* libyim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyim.a; sourceTree = "<group>"; };
+		CF4F356923B3D71D00A39705 /* libyoume_voice_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyoume_voice_engine.a; sourceTree = "<group>"; };
+		CF4F35DA23B3D91500A39705 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CF4F35DC23B3D91B00A39705 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CF4F35DE23B3D92100A39705 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CF4F35E023B3D92E00A39705 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF4F35E223B3D93600A39705 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF4F35E423B3D93B00A39705 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF6CAB2023B3DA290044A685 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CF6CAB2223B3DA300044A685 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF6CAB2423B3DA370044A685 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E66B09D7222911CA66C84EDD /* libPods-YoumeSDKRNDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoumeSDKRNDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -82,6 +316,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6CAB2523B3DA370044A685 /* CFNetwork.framework in Frameworks */,
+				CF6CAB2323B3DA300044A685 /* AVFoundation.framework in Frameworks */,
+				CF6CAB2123B3DA290044A685 /* CoreTelephony.framework in Frameworks */,
+				CF4F35E523B3D93B00A39705 /* CoreLocation.framework in Frameworks */,
+				CF4F35E323B3D93600A39705 /* AudioToolbox.framework in Frameworks */,
+				CF4F35E123B3D92E00A39705 /* SystemConfiguration.framework in Frameworks */,
+				CF4F35DF23B3D92100A39705 /* libsqlite3.tbd in Frameworks */,
+				CF4F35DD23B3D91B00A39705 /* libz.tbd in Frameworks */,
+				CF4F35DB23B3D91500A39705 /* libc++.tbd in Frameworks */,
+				CF4F35D223B3D71D00A39705 /* libyim.a in Frameworks */,
+				CF4F35D123B3D71D00A39705 /* libYouMeCommon.a in Frameworks */,
+				CF4F35D323B3D71D00A39705 /* libyoume_voice_engine.a in Frameworks */,
 				CEF7ED5691F0BA1BE92D1402 /* libPods-YoumeSDKRNDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +385,15 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF6CAB2423B3DA370044A685 /* CFNetwork.framework */,
+				CF6CAB2223B3DA300044A685 /* AVFoundation.framework */,
+				CF6CAB2023B3DA290044A685 /* CoreTelephony.framework */,
+				CF4F35E423B3D93B00A39705 /* CoreLocation.framework */,
+				CF4F35E223B3D93600A39705 /* AudioToolbox.framework */,
+				CF4F35E023B3D92E00A39705 /* SystemConfiguration.framework */,
+				CF4F35DE23B3D92100A39705 /* libsqlite3.tbd */,
+				CF4F35DC23B3D91B00A39705 /* libz.tbd */,
+				CF4F35DA23B3D91500A39705 /* libc++.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				397B7D2464D0F521A9E46385 /* libPods-YoumeSDKRNDemo.a */,
@@ -159,6 +414,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CF4F347A23B3D71D00A39705 /* SDK */,
 				13B07FAE1A68108700A75B9A /* YoumeSDKRNDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* YoumeSDKRNDemoTests */,
@@ -194,8 +450,270 @@
 				613C9826C5C1A49D0EEC27F4 /* Pods-YoumeSDKRNDemoTests.debug.xcconfig */,
 				1EE77F1F2B4B38A6F69D481B /* Pods-YoumeSDKRNDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF4F347A23B3D71D00A39705 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F347B23B3D71D00A39705 /* support-lib */,
+				CF4F34FE23B3D71D00A39705 /* iOSbind */,
+				CF4F351E23B3D71D00A39705 /* cpp */,
+				CF4F355D23B3D71D00A39705 /* yim */,
+			);
+			name = SDK;
+			path = ../SDK;
+			sourceTree = "<group>";
+		};
+		CF4F347B23B3D71D00A39705 /* support-lib */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F347C23B3D71D00A39705 /* proxy_cache_interface.hpp */,
+				CF4F347D23B3D71D00A39705 /* proxy_cache_impl.hpp */,
+				CF4F347E23B3D71D00A39705 /* react.djinni */,
+				CF4F349623B3D71D00A39705 /* cpp */,
+				CF4F34A923B3D71D00A39705 /* react.yaml */,
+				CF4F34C423B3D71D00A39705 /* objc */,
+				CF4F34FB23B3D71D00A39705 /* djinni_common.hpp */,
+				CF4F34FC23B3D71D00A39705 /* generate_react.sh */,
+				CF4F34FD23B3D71D00A39705 /* support_lib.gyp */,
+			);
+			path = "support-lib";
+			sourceTree = "<group>";
+		};
+		CF4F349623B3D71D00A39705 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F349723B3D71D00A39705 /* JavascriptObjectImpl.cpp */,
+				CF4F349823B3D71D00A39705 /* JavascriptTypes.hpp */,
+				CF4F349923B3D71D00A39705 /* JavascriptCallback.hpp */,
+				CF4F349A23B3D71D00A39705 /* JobImpl.cpp */,
+				CF4F349B23B3D71D00A39705 /* ReactBridge.hpp */,
+				CF4F349C23B3D71D00A39705 /* JobQueueImpl.hpp */,
+				CF4F349D23B3D71D00A39705 /* JobImpl.hpp */,
+				CF4F349E23B3D71D00A39705 /* JavascriptObject.hpp */,
+				CF4F349F23B3D71D00A39705 /* JavascriptMap.hpp */,
+				CF4F34A023B3D71D00A39705 /* JavascriptArray.hpp */,
+				CF4F34A123B3D71D00A39705 /* JavascriptMapKeyIterator.hpp */,
+				CF4F34A223B3D71D00A39705 /* JavascriptPromise.hpp */,
+				CF4F34A323B3D71D00A39705 /* JobQueueImpl.cpp */,
+				CF4F34A423B3D71D00A39705 /* JobDispatcher.hpp */,
+				CF4F34A523B3D71D00A39705 /* JavascriptObjectImpl.hpp */,
+				CF4F34A623B3D71D00A39705 /* JavascriptType.hpp */,
+				CF4F34A723B3D71D00A39705 /* Job.hpp */,
+				CF4F34A823B3D71D00A39705 /* JobQueue.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		CF4F34C423B3D71D00A39705 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F34C523B3D71D00A39705 /* RVJobDispatcher+Private.h */,
+				CF4F34C623B3D71D00A39705 /* RVJavascriptCallbackImpl.mm */,
+				CF4F34C723B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.mm */,
+				CF4F34C823B3D71D00A39705 /* RVJavascriptMap+Private.mm */,
+				CF4F34C923B3D71D00A39705 /* RVJavascriptObject+Private.h */,
+				CF4F34CA23B3D71D00A39705 /* RVJobDispatcherImpl.h */,
+				CF4F34CB23B3D71D00A39705 /* RVJavascriptArrayImpl.h */,
+				CF4F34CC23B3D71D00A39705 /* RVJob.h */,
+				CF4F34CD23B3D71D00A39705 /* RVJavascriptPromiseImpl.mm */,
+				CF4F34CE23B3D71D00A39705 /* RVJavascriptMapImpl.mm */,
+				CF4F34CF23B3D71D00A39705 /* RVJavascriptMapImpl.h */,
+				CF4F34D023B3D71D00A39705 /* RVJavascriptType+Private.h */,
+				CF4F34D123B3D71D00A39705 /* RVJavascriptObject+Private.mm */,
+				CF4F34D223B3D71D00A39705 /* DJICppWrapperCache+Private.h */,
+				CF4F34D323B3D71D00A39705 /* RVJavascriptType.h */,
+				CF4F34D423B3D71D00A39705 /* RVJob+Private.h */,
+				CF4F34D523B3D71D00A39705 /* RVJavascriptArrayImpl.mm */,
+				CF4F34D623B3D71D00A39705 /* RVJavascriptArray.h */,
+				CF4F34D723B3D71D00A39705 /* RVReactBridge.h */,
+				CF4F34D823B3D71D00A39705 /* RVJavascriptMap+Private.h */,
+				CF4F34D923B3D71D00A39705 /* RVJavascriptCallback+Private.h */,
+				CF4F34DA23B3D71D00A39705 /* RVJobQueue+Private.h */,
+				CF4F34DB23B3D71D00A39705 /* RVReactBridge+Private.h */,
+				CF4F34DC23B3D71D00A39705 /* RVJavascriptCallback+Private.mm */,
+				CF4F34DD23B3D71D00A39705 /* RVJavascriptPromise+Private.mm */,
+				CF4F34DE23B3D71D00A39705 /* DJIError.h */,
+				CF4F34DF23B3D71D00A39705 /* RVJobQueue.h */,
+				CF4F34E023B3D71D00A39705 /* DJIProxyCaches.mm */,
+				CF4F34E123B3D71D00A39705 /* DJIObjcWrapperCache+Private.h */,
+				CF4F34E223B3D71D00A39705 /* RVJavascriptCallback.h */,
+				CF4F34E323B3D71D00A39705 /* RVReactDjinni.mm */,
+				CF4F34E423B3D71D00A39705 /* RVJobDispatcherImpl.m */,
+				CF4F34E523B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.h */,
+				CF4F34E623B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.h */,
+				CF4F34E723B3D71D00A39705 /* RVJobDispatcher.h */,
+				CF4F34E823B3D71D00A39705 /* RVJavascriptObject.h */,
+				CF4F34E923B3D71D00A39705 /* RVJavascriptArray+Private.mm */,
+				CF4F34EA23B3D71D00A39705 /* RVReactDjinni.h */,
+				CF4F34EB23B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.mm */,
+				CF4F34EC23B3D71D00A39705 /* RVJavascriptMapKeyIterator.h */,
+				CF4F34ED23B3D71D00A39705 /* RVJavascriptArray+Private.h */,
+				CF4F34EE23B3D71D00A39705 /* DJIError.mm */,
+				CF4F34EF23B3D71D00A39705 /* RVReactBridgeImpl.h */,
+				CF4F34F023B3D71D00A39705 /* RVJavascriptPromiseImpl.h */,
+				CF4F34F123B3D71D00A39705 /* RVReactBridge+Private.mm */,
+				CF4F34F223B3D71D00A39705 /* RVJobQueue+Private.mm */,
+				CF4F34F323B3D71D00A39705 /* RVReactBridgeImpl.mm */,
+				CF4F34F423B3D71D00A39705 /* RVJob+Private.mm */,
+				CF4F34F523B3D71D00A39705 /* RVJobDispatcher+Private.mm */,
+				CF4F34F623B3D71D00A39705 /* RVJavascriptCallbackImpl.h */,
+				CF4F34F723B3D71D00A39705 /* RVJavascriptMap.h */,
+				CF4F34F823B3D71D00A39705 /* DJIMarshal+Private.h */,
+				CF4F34F923B3D71D00A39705 /* RVJavascriptPromise+Private.h */,
+				CF4F34FA23B3D71D00A39705 /* RVJavascriptPromise.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		CF4F34FE23B3D71D00A39705 /* iOSbind */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F34FF23B3D71D00A39705 /* RCRNYIMFriendManager+Private.mm */,
+				CF4F350023B3D71D00A39705 /* RCRNYIMManager+Private.mm */,
+				CF4F350123B3D71D00A39705 /* RCRNYIMMessageManager+Private.h */,
+				CF4F350223B3D71D00A39705 /* RCRNVoiceEngine+Private.mm */,
+				CF4F350323B3D71D00A39705 /* RCRNYIMUserInfoManager.h */,
+				CF4F350423B3D71D00A39705 /* RCRNYIMLocationManager+Private.mm */,
+				CF4F350523B3D71D00A39705 /* RCRNYIMFriendManager.h */,
+				CF4F350623B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.h */,
+				CF4F350723B3D71D00A39705 /* RCRNYIMChannelManager+Private.h */,
+				CF4F350823B3D71D00A39705 /* RCRNYIMChannelManager+Private.mm */,
+				CF4F350923B3D71D00A39705 /* RCRNYIMLocationManager+Private.h */,
+				CF4F350A23B3D71D00A39705 /* RCRNYIMCommon+Private.mm */,
+				CF4F350B23B3D71D00A39705 /* RCRNYIMChannelManager.h */,
+				CF4F350C23B3D71D00A39705 /* RCRNYIMHistoryMessageManager.h */,
+				CF4F350D23B3D71D00A39705 /* RCRNYIMManager+Private.h */,
+				CF4F350E23B3D71D00A39705 /* RCRNYIMCommon+Private.h */,
+				CF4F350F23B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.mm */,
+				CF4F351023B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.mm */,
+				CF4F351123B3D71D00A39705 /* RCRNYIMManager.h */,
+				CF4F351223B3D71D00A39705 /* RCRNVoiceEngine+Private.h */,
+				CF4F351323B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.h */,
+				CF4F351423B3D71D00A39705 /* RCDjinniModulesInitializer.mm */,
+				CF4F351523B3D71D00A39705 /* RCRNYIMCommon.h */,
+				CF4F351623B3D71D00A39705 /* yim_bridging_header.h */,
+				CF4F351723B3D71D00A39705 /* RCRNYIMLocationManager.h */,
+				CF4F351823B3D71D00A39705 /* RCRNYIMMessageManager+Private.mm */,
+				CF4F351923B3D71D00A39705 /* RCRNYIMMessageManager.h */,
+				CF4F351A23B3D71D00A39705 /* RCRNYIMCommon.mm */,
+				CF4F351B23B3D71D00A39705 /* RCRNVoiceEngine.h */,
+				CF4F351C23B3D71D00A39705 /* RCRNYIMFriendManager+Private.h */,
+				CF4F351D23B3D71D00A39705 /* RCDjinniModulesInitializer.h */,
+			);
+			path = iOSbind;
+			sourceTree = "<group>";
+		};
+		CF4F351E23B3D71D00A39705 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F351F23B3D71D00A39705 /* impl */,
+				CF4F353023B3D71D00A39705 /* gen */,
+				CF4F354E23B3D71D00A39705 /* callback */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		CF4F351F23B3D71D00A39705 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F352023B3D71D00A39705 /* RNYIMFriendManagerImpl.h */,
+				CF4F352123B3D71D00A39705 /* RNYIMFriendManagerImpl.cpp */,
+				CF4F352223B3D71D00A39705 /* RNYIMManagerImpl.cpp */,
+				CF4F352323B3D71D00A39705 /* RNYIMLocationManagerImpl.cpp */,
+				CF4F352423B3D71D00A39705 /* RNYIMLocationManagerImpl.h */,
+				CF4F352523B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.h */,
+				CF4F352623B3D71D00A39705 /* RNYIMManagerImpl.h */,
+				CF4F352723B3D71D00A39705 /* RNVoiceEngineImpl.cpp */,
+				CF4F352823B3D71D00A39705 /* RNYIMChannelManagerImpl.h */,
+				CF4F352923B3D71D00A39705 /* RNYIMMessageManagerImpl.h */,
+				CF4F352A23B3D71D00A39705 /* RNYIMChannelManagerImpl.cpp */,
+				CF4F352B23B3D71D00A39705 /* RNVoiceEngineImpl.h */,
+				CF4F352C23B3D71D00A39705 /* RNYIMMessageManagerImpl.cpp */,
+				CF4F352D23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.cpp */,
+				CF4F352E23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.h */,
+				CF4F352F23B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.cpp */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		CF4F353023B3D71D00A39705 /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F353123B3D71D00A39705 /* RNYIMManager.hpp */,
+				CF4F353223B3D71D00A39705 /* RNYIMCommon.hpp */,
+				CF4F353323B3D71D00A39705 /* RNYIMFriendManager.hpp */,
+				CF4F353423B3D71D00A39705 /* RNVoiceEngine.hpp */,
+				CF4F353523B3D71D00A39705 /* RNYIMCommon.cpp */,
+				CF4F353623B3D71D00A39705 /* RNYIMMessageManager.hpp */,
+				CF4F353723B3D71D00A39705 /* RNYIMHistoryMessageManager.hpp */,
+				CF4F353823B3D71D00A39705 /* RNYIMChannelManager.hpp */,
+				CF4F353923B3D71D00A39705 /* RNYIMLocationManager.hpp */,
+				CF4F353A23B3D71D00A39705 /* RNYIMUserInfoManager.hpp */,
+			);
+			path = gen;
+			sourceTree = "<group>";
+		};
+		CF4F354E23B3D71D00A39705 /* callback */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F354F23B3D71D00A39705 /* LocationCallback.cpp */,
+				CF4F355023B3D71D00A39705 /* MessageCallback.h */,
+				CF4F355123B3D71D00A39705 /* FriendCallback.cpp */,
+				CF4F355223B3D71D00A39705 /* AudioPlayCallback.h */,
+				CF4F355323B3D71D00A39705 /* IMManager.cpp */,
+				CF4F355423B3D71D00A39705 /* MessageCallback.cpp */,
+				CF4F355523B3D71D00A39705 /* LocationCallback.h */,
+				CF4F355623B3D71D00A39705 /* ChannelCallback.h */,
+				CF4F355723B3D71D00A39705 /* UserInfoCallback.cpp */,
+				CF4F355823B3D71D00A39705 /* UserInfoCallback.h */,
+				CF4F355923B3D71D00A39705 /* IMManager.h */,
+				CF4F355A23B3D71D00A39705 /* FriendCallback.h */,
+				CF4F355B23B3D71D00A39705 /* ChannelCallback.cpp */,
+				CF4F355C23B3D71D00A39705 /* AudioPlayCallback.cpp */,
+			);
+			path = callback;
+			sourceTree = "<group>";
+		};
+		CF4F355D23B3D71D00A39705 /* yim */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F355E23B3D71D00A39705 /* include */,
+				CF4F356523B3D71D00A39705 /* lib */,
+			);
+			path = yim;
+			sourceTree = "<group>";
+		};
+		CF4F355E23B3D71D00A39705 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F355F23B3D71D00A39705 /* IYouMeVoiceEngine.h */,
+				CF4F356023B3D71D00A39705 /* YouMeConstDefine.h */,
+				CF4F356123B3D71D00A39705 /* YIM.h */,
+				CF4F356223B3D71D00A39705 /* VoiceEngineCallback.h */,
+				CF4F356323B3D71D00A39705 /* IYouMeEventCallback.h */,
+				CF4F356423B3D71D00A39705 /* YIMPlatformDefine.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CF4F356523B3D71D00A39705 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F356623B3D71D00A39705 /* ios */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		CF4F356623B3D71D00A39705 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F356723B3D71D00A39705 /* libYouMeCommon.a */,
+				CF4F356823B3D71D00A39705 /* libyim.a */,
+				CF4F356923B3D71D00A39705 /* libyoume_voice_engine.a */,
+			);
+			path = ios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,11 +808,17 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = NUZXKA7782;
+						ProvisioningStyle = Manual;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = NUZXKA7782;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -308,6 +832,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,7 +861,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4F35AB23B3D71D00A39705 /* generate_react.sh in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CF4F35AC23B3D71D00A39705 /* support_lib.gyp in Resources */,
+				CF4F357323B3D71D00A39705 /* react.djinni in Resources */,
+				CF4F358A23B3D71D00A39705 /* react.yaml in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,8 +1057,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4F35BF23B3D71D00A39705 /* RNYIMHistoryMessageManagerImpl.cpp in Sources */,
+				CF4F35AF23B3D71D00A39705 /* RCRNVoiceEngine+Private.mm in Sources */,
+				CF4F35AA23B3D71D00A39705 /* RVJobDispatcher+Private.mm in Sources */,
+				CF4F35CF23B3D71D00A39705 /* ChannelCallback.cpp in Sources */,
+				CF4F35CD23B3D71D00A39705 /* MessageCallback.cpp in Sources */,
+				CF4F35CE23B3D71D00A39705 /* UserInfoCallback.cpp in Sources */,
+				CF4F35A523B3D71D00A39705 /* DJIError.mm in Sources */,
+				CF4F35CC23B3D71D00A39705 /* IMManager.cpp in Sources */,
+				CF4F359A23B3D71D00A39705 /* RVJavascriptPromiseImpl.mm in Sources */,
+				CF4F359723B3D71D00A39705 /* RVJavascriptCallbackImpl.mm in Sources */,
+				CF4F35BA23B3D71D00A39705 /* RNYIMLocationManagerImpl.cpp in Sources */,
+				CF4F35A123B3D71D00A39705 /* RVReactDjinni.mm in Sources */,
+				CF4F35B923B3D71D00A39705 /* RNYIMManagerImpl.cpp in Sources */,
+				CF4F358923B3D71D00A39705 /* JobQueueImpl.cpp in Sources */,
+				CF4F359823B3D71D00A39705 /* RVJavascriptMapKeyIterator+Private.mm in Sources */,
+				CF4F35B823B3D71D00A39705 /* RNYIMFriendManagerImpl.cpp in Sources */,
+				CF4F35B423B3D71D00A39705 /* RCRNYIMHistoryMessageManager+Private.mm in Sources */,
+				CF4F35B323B3D71D00A39705 /* RCRNYIMUserInfoManager+Private.mm in Sources */,
+				CF4F35B623B3D71D00A39705 /* RCRNYIMMessageManager+Private.mm in Sources */,
+				CF4F35B123B3D71D00A39705 /* RCRNYIMChannelManager+Private.mm in Sources */,
+				CF4F35CB23B3D71D00A39705 /* FriendCallback.cpp in Sources */,
+				CF4F359E23B3D71D00A39705 /* RVJavascriptCallback+Private.mm in Sources */,
+				CF4F35B723B3D71D00A39705 /* RCRNYIMCommon.mm in Sources */,
+				CF4F358823B3D71D00A39705 /* JobImpl.cpp in Sources */,
+				CF4F35A023B3D71D00A39705 /* DJIProxyCaches.mm in Sources */,
+				CF4F35B223B3D71D00A39705 /* RCRNYIMCommon+Private.mm in Sources */,
+				CF4F35A823B3D71D00A39705 /* RVReactBridgeImpl.mm in Sources */,
+				CF4F35BC23B3D71D00A39705 /* RNYIMChannelManagerImpl.cpp in Sources */,
+				CF4F35B023B3D71D00A39705 /* RCRNYIMLocationManager+Private.mm in Sources */,
+				CF4F35D023B3D71D00A39705 /* AudioPlayCallback.cpp in Sources */,
+				CF4F35BD23B3D71D00A39705 /* RNYIMMessageManagerImpl.cpp in Sources */,
+				CF4F358723B3D71D00A39705 /* JavascriptObjectImpl.cpp in Sources */,
+				CF4F35A923B3D71D00A39705 /* RVJob+Private.mm in Sources */,
+				CF4F35AD23B3D71D00A39705 /* RCRNYIMFriendManager+Private.mm in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				CF4F35A323B3D71D00A39705 /* RVJavascriptArray+Private.mm in Sources */,
+				CF4F35BB23B3D71D00A39705 /* RNVoiceEngineImpl.cpp in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				CF4F35B523B3D71D00A39705 /* RCDjinniModulesInitializer.mm in Sources */,
+				CF4F35A723B3D71D00A39705 /* RVJobQueue+Private.mm in Sources */,
+				CF4F35A623B3D71D00A39705 /* RVReactBridge+Private.mm in Sources */,
+				CF4F35C023B3D71D00A39705 /* RNYIMCommon.cpp in Sources */,
+				CF4F35A423B3D71D00A39705 /* RVJavascriptMapKeyIteratorImpl.mm in Sources */,
+				CF4F35CA23B3D71D00A39705 /* LocationCallback.cpp in Sources */,
+				CF4F359923B3D71D00A39705 /* RVJavascriptMap+Private.mm in Sources */,
+				CF4F35AE23B3D71D00A39705 /* RCRNYIMManager+Private.mm in Sources */,
+				CF4F359B23B3D71D00A39705 /* RVJavascriptMapImpl.mm in Sources */,
+				CF4F359F23B3D71D00A39705 /* RVJavascriptPromise+Private.mm in Sources */,
+				CF4F35A223B3D71D00A39705 /* RVJobDispatcherImpl.m in Sources */,
+				CF4F359C23B3D71D00A39705 /* RVJavascriptObject+Private.mm in Sources */,
+				CF4F35BE23B3D71D00A39705 /* RNYIMUserInfoManagerImpl.cpp in Sources */,
+				CF4F359D23B3D71D00A39705 /* RVJavascriptArrayImpl.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +1162,8 @@
 			baseConfigurationReference = 613C9826C5C1A49D0EEC27F4 /* Pods-YoumeSDKRNDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NUZXKA7782;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -597,6 +1178,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoumeSDKRNDemo.app/YoumeSDKRNDemo";
 			};
 			name = Debug;
@@ -606,7 +1189,9 @@
 			baseConfigurationReference = 1EE77F1F2B4B38A6F69D481B /* Pods-YoumeSDKRNDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = NUZXKA7782;
 				INFOPLIST_FILE = YoumeSDKRNDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -617,6 +1202,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoumeSDKRNDemo.app/YoumeSDKRNDemo";
 			};
 			name = Release;
@@ -626,17 +1213,46 @@
 			baseConfigurationReference = 40CD2DB2C8A2C31B27570EFE /* Pods-YoumeSDKRNDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = NUZXKA7782;
 				INFOPLIST_FILE = YoumeSDKRNDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"$(SRCROOT)/../SDK/yim/lib/ios\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.rndemo;
 				PRODUCT_NAME = YoumeSDKRNDemo;
+				PROVISIONING_PROFILE_SPECIFIER = wildcard;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -646,16 +1262,45 @@
 			baseConfigurationReference = FE86F8D1992F806E69198BA0 /* Pods-YoumeSDKRNDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUZXKA7782;
 				INFOPLIST_FILE = YoumeSDKRNDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"$(SRCROOT)/../SDK/yim/lib/ios\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.rndemo;
 				PRODUCT_NAME = YoumeSDKRNDemo;
+				PROVISIONING_PROFILE_SPECIFIER = wildcard;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -670,7 +1315,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "YoumeSDKRNDemo-tvOS/Info.plist";
@@ -682,6 +1329,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YoumeSDKRNDemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
@@ -698,8 +1346,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "YoumeSDKRNDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -710,6 +1360,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YoumeSDKRNDemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
